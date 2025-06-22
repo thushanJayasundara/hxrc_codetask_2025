@@ -43,4 +43,3 @@ Coding Tasks:
 
 Questions? If you have any questions about the task, please contact:
 Juho Puurunen – juho.puurunen@metropolia.fi
->>>>>>> 9654ccc (add code task files)
