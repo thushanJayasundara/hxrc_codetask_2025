@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# hxrc_codetask_2025
-=======
+
 # Helsinki XR Center – Coding Task 2025
 
 This task is intended to evaluate your frontend skills and understanding of interaction design, UI/UX, and code structure in a Three.js + React environment. 
