@@ -1,45 +1,103 @@
+🔮 Tarot Card Viewer – Enhanced
 
-# Helsinki XR Center – Coding Task 2025
+This is an upgraded Tarot card deck viewer built with React and Three.js, redesigned for a more intuitive, responsive, and visually engaging experience.
+It allows users to shuffle and deal cards with interactive animations, bringing a touch of mysticism to modern UI/UX practices.
 
-This task is intended to evaluate your frontend skills and understanding of interaction design, UI/UX, and code structure in a Three.js + React environment. 
-You will enhance an existing Tarot card deck viewer and improve its functionality and feel. 
+🌐 Live Demo
+	•	🔗 New Enhanced App: https://hxrc-codetask-2025.vercel.app/
+	•	🔗 Original App for Comparison: https://xrdev.edu.metropolia.fi/hxrc_codetask_2025/
 
-> **Note:** This task is designed to be completed in **3–5 hours**.  
-> It should **not** take a full working day.  
-> Please prioritize clarity and interactivity over polish or completeness.
+⸻
+
+✅ Completed Enhancements
+
+✨ UI/UX Improvements
+	•	Rebuilt the UI using Tailwind CSS for a modern, mobile-first responsive layout.
+	•	Improved card spacing, button placement, and grid responsiveness for both mobile and desktop.
+	•	Clean, minimalist aesthetic with readable font sizes and intuitive controls.
+
+🔁 Shuffling Logic
+	•	Refactored shuffle mechanism to use true randomization with Math.random() and array mutation logic.
+	•	Prevents predictable patterns and ensures fairness in every deal.
+
+🃏 Hover Effect on Dealt Cards
+	•	Hover animations added via /src/animations/hovercard.js.
+	•	Cards slightly animate forward on hover to improve visibility and engagement.
+	•	Only applied to dealt cards (not full deck) for clarity.
+
+⸻
+
+🧠 How the User Experience Was Improved
+
+Aspect	Original App	Enhanced App
+Layout	Static, not mobile-friendly	Fully responsive with adaptive card grid
+Shuffling Logic	Predictable or minimal	Fully randomized per shuffle
+Visual Feedback	No interactivity	Hover animation and better button feedback
+Clarity	Lacked distinction between deck and dealt cards	Clearly separated components with intuitive interactions
+Visual Appeal	Basic browser styling	Tailwind-based UI, spacing, and consistent design
 
 
-Setup Instructions:
-1. Clone the repository: 
-	https://gitlab.com/hxrc_public/hxrc_codetask_2025 
-2. Install dependencies and run the app locally:
-	npm install
-	npm run dev
-3. You can preview the current application functionality at:  
-	https://xrdev.edu.metropolia.fi/hxrc_codetask_2025 
+⸻
 
-Coding Tasks:
-1. Create a better UI for the Tarot card application.
-	• Use your preferred styling method (CSS, styled-components, Tailwind, etc).
-	• Ensure responsive layout and a user-friendly experience on 
-	desktop and mobile
-2. Improve the shuffling logic.
-	• Ensure that each deal gives a truly randomized result.
-	• Avoid predictable orders after shuffling.
+🎮 Gamification Ideas (If Given a Full Week)
 
-3. Add a hover effect for dealt cards only.
-	• Implement the logic in: /src/animations/hovercard.js
-	• Cards should animate forward when hovered, improving visibility.
+If allocated a full development week, here are ideas to turn this into a gamified Tarot experience:
 
-4. Enhance the README file:
-	• Explain how you would improve the overall user experience.
-	• Propose ideas on how to gamify the Tarot app if given a 
-	full week to develop.
+1. Daily Draw Challenge
+	•	Let users draw a single card daily as part of a “daily energy” prompt.
+	•	Include a streak system and personalized card interpretations.
 
-5. Submit your task: 
-	• Upload your code to a repository (GitHub, GitLab, etc).
-	• Deploy the final app using a service like Vercel, Netlify, or GitHub Pages.
-	• Share both the repository link and the live demo link. 
+2. Achievement Badges
+	•	Unlock badges for actions like “First Shuffle”, “3-Day Streak”, or “Draw Major Arcana”.
 
-Questions? If you have any questions about the task, please contact:
-Juho Puurunen – juho.puurunen@metropolia.fi
+3. Card Encyclopedia
+	•	Interactive catalog of all Tarot cards with meanings, allowing users to learn as they draw.
+
+4. Shareable Readings
+	•	Allow users to share their three-card spreads (Past-Present-Future) via social media or as images.
+
+5. Sound & Visual Effects
+	•	Background music, card flip sounds, and subtle particle animations for immersion.
+
+6. User Profiles & Save State
+	•	Let users create profiles to save their favorite readings or track progress.
+
+⸻
+
+🚀 Getting Started Locally
+
+# Clone the repository
+git clone https://github.com/thushanJayasundara/hxrc_codetask_2025.git
+cd hxrc_codetask_2025
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+
+⸻
+
+🛠️ Tech Stack
+	•	React (Frontend Framework)
+	•	Three.js (Card rendering and animations)
+	•	Tailwind CSS (Styling)
+	•	Vercel (Deployment)
+
+⸻
+
+📁 Folder Highlights
+
+/src
+ ┣ /animations        # Includes hover effect animations
+ ┣ /components        # DeckViewer and Card component
+ ┣ /utils             # Card list and shuffle logic
+
+
+⸻
+
+📬 Contact
+
+Developed with care by Thushan Jayasundara
+📧 thushanJayasundara@github
